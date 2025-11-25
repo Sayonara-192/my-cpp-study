@@ -38,7 +38,7 @@ int main() {
     currentPing.beams.push_back({1, -45.0, 100.5, -20.0}); // 左侧波束
     currentPing.beams.push_back({2,   0.0,  98.2, -15.5}); // 中央波束
     currentPing.beams.push_back({3,  45.0, 100.8, -21.0}); // 右侧波束
-    currentPing.beams.push_back({4, 60.0, 105.0, -22.5}); //新增第四个数据
+    currentPing.beams.push_back({4, 60.0, 105.0, -22.5}); //  新增第四个数据
 
     // -----------------------------------------------------
     // 3. 数据处理与输出 (模拟 MB-System 的数据查看功能)
